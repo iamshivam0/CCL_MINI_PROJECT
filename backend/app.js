@@ -13,9 +13,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://abc2-xi.vercel.app",
-    // methods: ["GET", "POST", "PUT", "DELETE"],
-    // allowedHeaders: ["Content-Type", "Authorization"],
+    origin: ["https://abc2-xi.vercel.app", "http://localhost:3000"],
     credentials: true,
   })
 );
