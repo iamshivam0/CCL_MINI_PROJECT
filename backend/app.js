@@ -13,7 +13,7 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(
   cors({
-    origin: ["https://abc2-xi.vercel.app", "http://localhost:3000"],
+    origin: ["https://ccl-frontend.vercel.app", "http://localhost:3000"],
     credentials: true,
   })
 );
